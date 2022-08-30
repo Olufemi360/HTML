@@ -1,0 +1,74 @@
+body{
+    /* background-color:rgb(44, 5, 185); */
+    background-color:green;        
+}
+#Top{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    color: black;
+    padding:0px 0px 0px 2px;
+    border: 1px solid black;
+}
+/* img{
+    opacity: 0.1;
+}
+img :hover{
+opacity: 1.0;
+}*/
+#Second{    
+    height: 198px;    
+    width: 500px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    background-image: url(../Images/Cup2.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid rgb(79, 61, 142);
+    margin-left: 25%;       
+}
+.Second2{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height:50px;
+    margin-left:50px ;    
+}
+
+#Third{
+    height: 198px;
+    width: 200px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    border:2px solid rgb(79, 61, 142);
+    background-image:url(../Images/Third.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 35%;
+}
+#Forth{
+    height: 198px;
+    width: 500px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image:url(../Images/Fineboy.jpg);
+    margin-left:25%;
+    border: 2px solid rgb(79, 61, 142);
+}
+#Fifth{
+    height: 198px;
+    width: 200px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    border:2px solid rgb(79, 61, 142);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../Images/SalesHead.jpg);
+    margin-left: 35%;
+}

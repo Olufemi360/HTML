@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{  
+    background-image: url(../Module2/Images/Chef2.jpg);  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(177, 49, 49);
+}
+.Chicken{
+    background-image: url(../Module2/Images/Chicken\ Background.jpg);
+    background-repeat: no-repeat; 
+    border-radius: 60px;   
+    color: black;
+}
+.Beef{
+    background-image: url(../Module2/Images/Beef\ Background.jpg);
+    background-repeat: no-repeat; 
+    border-radius: 60px;   
+    color: black;
+}
+.Sushi{
+    background-image: url(../Module2/Images/Sushi\ Background.jpg);
+    background-repeat: no-repeat; 
+    border-radius: 60px;   
+    color: black;
+}
+h1{
+    margin-bottom: 20px; 
+    width: 100%; 
+    text-align: center;  
+}
+p{
+    width:90%;
+    height:150px;
+    margin-left: auto;
+    margin-right:auto;
+    font-family:Helvetica;
+    color:black; 
+    padding:10px;
+    /* overflow: auto;     */
+    
+    
+}
+
+ 
+ span{
+    border:1px solid black;
+    background-color: green;
+    float:right;    
+    padding-top: 0px;
+    position: relative;
+    bottom: 10px;
+    left:10px;
+    width:100px;  
+    }
+        
+    #title{
+        float: left; 
+    }
+.row{
+    width:100%;
+    position:absolute;    
+}
+
+
+@media(min-width:992px){
+    .box{
+        width:33.3%;
+        float:left;                        
+    }
+
+
+}
+@media(min-width:768px) and (max-width:991px){
+    .boxer{
+        width:50%;        
+        float:left;                       
+    }
+    .boxer-third{
+        width:100%;
+        float:left;
+         padding:10px;
+    }
+    .boxer-third p{
+        width:100%;      
+        padding:10px;        
+    }
+
+}
+@media(max-width:767px){
+    
+}

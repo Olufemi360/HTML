@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+     
+    
+    }
+
+    img{
+        width: 100px;
+        border-radius: 50px;
+        float: right;
+        margin:50px 200px 0px 0px;
+         }
+h1{
+    color:crimson;
+  }
+
+    
+    h2{
+        background-color: blueviolet;
+        color:orangered;
+    }
+
+    .Men{
+        color:crimson
+    }
+
+    .content{
+        color: yellow
+    }
+
+    #link:hover{
+        color: red;
+    }

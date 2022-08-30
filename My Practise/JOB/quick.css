@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(209, 65, 56);
+    font-size:5px;
+    text-align: right;
+    }
+#Table{
+  background-color: rgb(38, 40, 89);
+  width: 100px;  
+  float: left;
+  text-align: center;
+  margin: 20px;
+}
+
+#Links{
+    background-color: white;
+    height: 10px;        
+    margin: 20px;
+    padding:2px auto 0px 2px;      
+}
+
+#Bible{
+  background-color: white;
+  text-align: center;
+  float:left;
+  margin:20px;
+  width: 50px;
+}
+
+#Quote{
+background-color: white;
+width: 100px;
+text-align:center;
+float: left;
+margin:20px ;
+} 
+
+#Foods{
+  background-color: white;
+  margin: 20px;
+  float: left;
+  text-align: center;
+  width: 100px;
+}
+#Places{
+  background-color: white;
+  float: left;
+  margin: 20px;
+  text-align: center;
+  width: 100px;
+}

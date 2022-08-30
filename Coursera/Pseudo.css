@@ -1,0 +1,41 @@
+header li{
+    list-style:none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    background-color: purple;
+    border: 1px solid blue;
+    color:black;
+    display:block;
+    width:200px;
+    border-radius:10px;
+    margin-bottom: 1px;
+    text-align:center;
+}
+a:hover, a:active{
+background-color:green;
+color:whitesmoke;
+}
+section div{
+    display: block;
+    width: 700px;
+    border-radius:8px;    
+}
+section div:nth-child(odd){
+    background-color: grey;    
+}
+section div:nth-child(even){
+    background-color: greenyellow;    
+}
+.even:hover{
+    border-radius: 10px;
+    text-align:center;
+    background-color:rgb(4, 4, 215);
+    width:750px;
+}
+.odd:hover{
+    border-radius: 10px;
+    text-align:center;
+    background-color:red;
+    width:750px;
+}

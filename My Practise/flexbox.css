@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+
+#Flex-box{
+    Display:Flex;
+    height: 5000px;
+    border: 2px dashed red;
+    width:500px;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: aliceblue;
+    /* margin-left: 400px; */
+    Margin-left:20%;
+    margin-right:20%;
+        
+    }
+
+.Flex-container{
+    display: flexbox;
+    background-color: black;
+    color: brown;
+    width: 40px;
+    margin:10px 10px 10px 10px;    
+    align-self:center;
+    border-radius: 20px;
+}

@@ -1,0 +1,67 @@
+body{
+  background-color:rgb(5, 99, 84);
+  color:rgb(245, 106, 7);
+  font-size: 20px;
+  margin: 50px;
+}
+
+h1 :hover {
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+color: rgb(169, 131, 222);
+}
+img{
+  height: 350px;
+  border-radius: 100px;
+}
+.Subtitle{
+  color:rgb(169, 131, 222) ;
+  text-align:center;
+}
+
+table{
+  background-color:white;
+  color: black;
+}
+
+#Notice{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+}
+#box{
+background-color: rgb(5, 99, 84);
+border: 1px solid black;
+width: 200px;
+padding: 0px 0px 0px 15px;
+}
+
+#Submit{
+  border:2px solid black;
+}
+#list{
+  border:2px solid black;
+  width:250px;
+  color:white;
+}
+
+#content{
+  border:2px solid black;
+  width:293px;
+}
+
+.box{
+ background-color: blue;
+ text-align:center;
+  height: 80px;
+  width: 150px;
+  padding: 30px 50px 0px 30px;
+}
+
+/* .box{
+  color:blue;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background-color:red;
+  width: 400px;  
+} */

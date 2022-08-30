@@ -1,0 +1,13 @@
+body{
+background-color: rgb(8, 195, 8);
+color:rgb(77, 16, 47);
+}
+#container{
+    margin-left: 60px;
+}
+#first-paragraph{
+    font-family:'Courier New', Courier, monospace 'Times New Roman', Times, serif;
+    text-decoration: underline; 
+}
+dd{font-family: 'Courier New', Courier, monospace ;
+}

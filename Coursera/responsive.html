@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+</head>
+<style>
+    *{
+        box-sizing:border-box ;
+    }
+    h1{
+        margin-bottom: 15px;
+    }
+    p{
+        color: white;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: brown;
+        border: 1px solid green;
+        height:150px;
+        font-family:Helvetica;
+    }
+    .row{
+        width:100%;
+    }
+    @media (min-width:1200px){
+        .col-1-lg , .col-2-lg, .col-3-lg, .col-4-lg,.col-5-lg,.col-6-lg,.col-7-lg,.col-8-lg,.col-9-lg,.col-10-lg,.col-11-lg,.col-1-lg,.col-12-lg{
+            float:left;
+            border:1px solid green;
+        }
+        .col-1-lg{
+            width:8.33%;
+        }
+        .col-2-lg{
+            width:16.66%;
+        }
+        .col-3-lg{
+            width:25%;
+        }
+        .col-4-lg{
+            width:33%;
+        }
+        .col-5-lg{
+            width:41.66%;
+        }
+        .col-6-lg{
+            width:50%;
+        }
+        .col-7-lg{
+            width:58.33%;
+        }
+        .col-8-lg{
+            width:66.66%;
+        }
+        .col-9-lg{
+            width:74.99%;
+        }
+        .col-10-lg{
+            width:83.33%;
+        }
+        .col-11-lg{
+            width:91.66%;
+        }
+        .col-12-lg{
+            width:100%;
+        }
+        
+    }
+    @media(min-width:950px) and (max-width:1199px){.col-1-md , .col-2-md, .col-3-md, .col-4-md,.col-5-md,.col-6-md,.col-7-md,.col-8-md,.col-9-md,.col-10-md,.col-11-md,.col-1-lg,.col-12-md
+        {
+        float:left;
+        border:1px solid green;
+    }
+    .col-1-md{
+            width:8.33%;
+        }
+        .col-2-md{
+            width:16.66%;
+        }
+        .col-3-md{
+            width:25%;
+        }
+        .col-4-md{
+            width:33%;
+        }
+        .col-5-md{
+            width:41.66%;
+        }
+        .col-6-md{
+            width:50%;
+        }
+        .col-7-md{
+            width:58.33%;
+        }
+        .col-8-md{
+            width:66.66%;
+        }
+        .col-9-md{
+            width:74.99%;
+        }
+        .col-10-md{
+            width:83.33%;
+        }
+        .col-11-md{
+            width:91.66%;
+        }
+        .col-12-md{
+            width:100%;
+        }
+
+    }
+    @media (max-width:1199px){
+        .col-6-md{
+            width:50%;
+        }
+    }
+
+</style>
+<body>
+    <h1>Responsive Layout</h1>
+    <div class="row">
+        <div class="col-3-lg col-6-md"><p>Item 1</p></div>
+        <div class="col-3-lg col-6-md"><p>Item2 Waow this is so cool</p></div>
+        <div class="col-3-lg col-6-md"><p>Item3</p></div>
+        <div class="col-3-lg col-6-md"><p>Item4</p></div>
+        <div class="col-3-lg col-6-md"><p>Item5 This is Cool</p></div>
+        <div class="col-3-lg col-6-md"><p>Item6</p></div>
+        <div class="col-3-lg col-6-md"><p>Item7</p></div>
+        <div class="col-3-lg col-6-md"><p>Item8</p></div>
+    </div>
+</body>
+</html>

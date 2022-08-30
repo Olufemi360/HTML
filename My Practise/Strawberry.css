@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Hero{
+    width:80%;
+    margin:auto;
+}
+.navbar{
+    margin:30px auto;
+    display:flex;
+    align-items: center;
+}
+ul{
+    flex:1;
+    text-align: right;
+}
+ul li{
+    display:inline-block;
+    list-style: none;
+    margin:0px 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding:0px 10px;
+}
+
+ul li a:hover {    
+    transition: 2s;    
+    color:red;
+    font-size:2em;
+    text-decoration:underline;
+}
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left-column,.right-column{
+    flex-basis: 50%;
+}
+.right-column :hover{
+    cursor:pointer;    
+}
+.search-box input{
+    width:350px;    
+}
+.left-column h1{
+    font-size: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+.left-column h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+.inner{
+    font-family: 'Courier New', Courier, monospace;
+}
+span{    
+    color:red;
+}
+.left-column p {
+font-size: 14px;
+margin:10px 0px;
+}
+.btn button{
+    padding:7px 30px;
+    margin-right:15px;
+    outline:none;
+    border:1px solid black;
+    border-radius: 20px;
+    color:red;
+    cursor:pointer;
+    background-color: pink;
+}
+.social-icons{
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
